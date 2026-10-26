@@ -1,5 +1,6 @@
 ---
 import { readFile } from "node:fs/promises";
+import { marked } from "marked";
 
 const file = await readFile("content/pages/home.md", "utf-8");
 
@@ -8,18 +9,24 @@ const title = file.match(/title:\s*["']?(.*?)["']?\n/)?.[1] ?? "Home";
 const body = file
   .replace(/^---[\s\S]*?---/, "")
   .trim();
+const html = marked(body);
 ---
 
 <html>
   <head>
     <title>{title}</title>
+    <style>
+          body {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            font-family: system-ui, sans-serif;
+            line-height: 1.6;
+          }
+    </style>
   </head>
 
   <body>
-    <article>
-      <div style="white-space: pre-wrap;">
-        {body}
-      </div>
-    </article>
+    <Fragment set:html={html} />
   </body>
 </html>

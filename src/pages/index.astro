@@ -1,9 +1,19 @@
+---
+import { readFile } from "node:fs/promies";
+
+const file = await readFile("content/pages/home.md", "utf-8");
+
+const titleMatch = file.match(/title:\s*(.*)/);
+const title = titleMatch ? titleMatch[1] : "Home";
+---
+
 <html>
   <head>
-    <title>Deaf Midwest Pickleball</title>
+    <title>{title}</title>
   </head>
+
   <body>
-    <h1>Deaf Midwest Pickleball</h1>
-    <p>Welcome to Deaf Midwest Pickleball</p>
+    <h1>{title}</h1>
+    <pre>{file}</pre>
   </body>
 </html>

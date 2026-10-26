@@ -3,8 +3,7 @@ import { readFile } from "node:fs/promises";
 
 const file = await readFile("content/pages/home.md", "utf-8");
 
-const title = file.match(/title:\s*(.*)/)?.[1] ?? "";
-const subtitle = file.match(/subtitle:\s*(.*)/)?.[1] ?? "";
+const title = file.match(/title:\s*["']?(.*?)["']?\n/)?.[1] ?? "Home";
 
 const body = file
   .replace(/^---[\s\S]*?---/, "")
@@ -17,10 +16,10 @@ const body = file
   </head>
 
   <body>
-    <h1>{title}</h1>
-
-    <p>{subtitle}</p>
-
-    <div>{body}</div>
+    <article>
+      <div style="white-space: pre-wrap;">
+        {body}
+      </div>
+    </article>
   </body>
 </html>

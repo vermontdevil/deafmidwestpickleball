@@ -1,0 +1,52 @@
+---
+import { marked } from "marked";
+import navigation from "../../content/navigation.json";
+
+const { markdown, currentPath } = Astro.props;
+const title = markdown.match(/^title:[ \t]*["']?(.*?)["']?[ \t]*\r?$/m)?.[1] ?? "Deaf Midwest Pickleball";
+const body = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---(?:\r?\n|$)/, "").trim();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Main navigation">
+        <ul>
+          {navigation.links.map(({ label, href }) => (
+            <li><a href={href} aria-current={href === currentPath ? "page" : undefined}>{label}</a></li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+    <main><Fragment set:html={marked(body)} /></main>
+  </body>
+</html>
+
+<style>
+  body {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+    list-style: none;
+    padding: 0 0 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+
+  [aria-current="page"] {
+    font-weight: bold;
+  }
+</style>

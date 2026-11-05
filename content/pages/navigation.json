@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tournament",
+      "href": "/tournament/"
+    },
+    {
+      "label": "FAQs",
+      "href": "/faqs/"
+    },
+    {
+      "label": "About Us",
+      "href": "/about/"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact/"
+    }
+  ]
+}

@@ -16,3 +16,22 @@ content:
       - name: body
         label: Content
         type: rich-text
+
+  - name: navigation
+    label: Navigation
+    type: file
+    path: content/navigation.json
+    fields:
+      - name: links
+        label: Menu links
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Link text
+            type: string
+            required: true
+          - name: href
+            label: URL
+            type: string
+            required: true

@@ -1,0 +1,68 @@
+:root {
+  color-scheme: light;
+  --text: #172539;
+  --accent: #07665c;
+  --line: #dce5e5;
+  --tint: #e9f5f2;
+}
+
+body {
+  max-width: 54rem;
+  margin: 0 auto;
+  padding: 0 1rem 3rem;
+  background: #fff;
+  color: var(--text);
+  font: 1rem/1.65 system-ui, sans-serif;
+}
+
+header {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+  background: var(--tint);
+}
+
+main {
+  padding-top: 1.5rem;
+  overflow-wrap: anywhere;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 0.18em;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}

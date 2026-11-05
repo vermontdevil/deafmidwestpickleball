@@ -1,32 +1,6 @@
 ---
-import { readFile } from "node:fs/promises";
-import { marked } from "marked";
-
-const file = await readFile("content/pages/home.md", "utf-8");
-
-const title = file.match(/title:\s*["']?(.*?)["']?\n/)?.[1] ?? "Home";
-
-const body = file
-  .replace(/^---[\s\S]*?---/, "")
-  .trim();
-const html = marked(body);
+import ContentPage from "../components/ContentPage.astro";
+import markdown from "../../content/pages/home.md?raw";
 ---
 
-<html>
-  <head>
-    <title>{title}</title>
-    <style>
-          body {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-            font-family: system-ui, sans-serif;
-            line-height: 1.6;
-          }
-    </style>
-  </head>
-
-  <body>
-    <Fragment set:html={html} />
-  </body>
-</html>
+<ContentPage markdown={markdown} currentPath="/" />

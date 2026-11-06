@@ -7,17 +7,11 @@
 }
 
 body {
-  max-width: 54rem;
-  margin: 0 auto;
-  padding: 0 1rem 3rem;
+  margin: 0;
+  padding: 0 clamp(0.75rem, 3vw, 3rem) 3rem;
   background: #fff;
   color: var(--text);
   font: 1rem/1.65 system-ui, sans-serif;
-}
-
-header {
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--line);
 }
 
 nav ul {
@@ -66,6 +60,7 @@ main img {
   height: auto;
   border-radius: 0.5rem;
 }
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -73,11 +68,14 @@ header {
   gap: 0.5rem 1.25rem;
   padding: 0.75rem 1rem;
   background: #123e73;
-  border-bottom: 0;
 }
 
 .site-logo img {
   display: block;
+}
+
+header nav {
+  min-width: 0;
 }
 
 header nav a {

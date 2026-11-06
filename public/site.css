@@ -90,3 +90,32 @@ header nav a[aria-current="page"] {
 header a:focus-visible {
   outline-color: #fff;
 }
+
+.tournament-gallery {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.tournament-gallery > p,
+.tournament-gallery > figure {
+  margin: 0;
+}
+
+.tournament-gallery img {
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 48rem) {
+  .tournament-gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 75rem) {
+  .tournament-gallery {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

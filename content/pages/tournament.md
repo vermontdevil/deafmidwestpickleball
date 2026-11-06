@@ -60,23 +60,47 @@ You can see our [medal winners here](https://docs.google.com/presentation/d/1JA_
 
 **Photo Gallery**
 
+![2025 tournament photo 1](/images/IMG_7808-225x300.jpg)
+![2025 tournament photo 2](/images/IMG_7803-300x225.jpg)
+![2025 tournament photo 3](/images/IMG_7801-300x225.jpg)
+![2025 tournament photo 4](/images/IMG_7797-300x225.jpg)
+![2025 tournament photo 5](/images/IMG_7793-300x225.jpg)
+![2025 tournament photo 6](/images/IMG_7790-300x225.jpg)
+![2025 tournament photo 7](/images/IMG_7785-300x225.jpg)
+![2025 tournament photo 8](/images/IMG_7857-300x225.jpg)
+![2025 tournament photo 9](/images/IMG_7855-300x225.jpg)
+![2025 tournament photo 10](/images/IMG_7851-300x225.jpg)
+![2025 tournament photo 11](/images/IMG_7850-300x225.jpg)
+![2025 tournament photo 12](/images/IMG_7849-300x225.jpg)
+![2025 tournament photo 13](/images/IMG_7847-300x225.jpg)
+![2025 tournament photo 14](/images/IMG_7840-300x225.jpg)
+![2025 tournament photo 15](/images/IMG_7837-300x225.jpg)
+![2025 tournament photo 16](/images/IMG_7835-300x225.jpg)
+![2025 tournament photo 17](/images/IMG_7830-300x225.jpg)
+![2025 tournament photo 18](/images/IMG_7828-300x225.jpg)
+![2025 tournament photo 19](/images/IMG_7827-300x225.jpg)
+![2025 tournament photo 20](/images/IMG_7822-300x225.jpg)
+![2025 tournament photo 21](/images/IMG_7818-300x225.jpg)
+![2025 tournament photo 22](/images/IMG_7814-300x225.jpg)
+![2025 tournament photo 23](/images/IMG_7810-300x225.jpg)
+
 ## 2024 Tournament Results
 
 DMPBT wants to thank everyone who came to play at our 4th tournament! Everyone from near and far (Arizona, New York, Texas, etc) along with all the midwestern states! We held the event from June 29 to June 30, 2024 at [Sureshot Pickleball](https://sureshotpickleball.com/) in Naperville, Illinois!
 
 Here are the winners!  
 
-![](images/2024-40-mixed-winners-1024x725.jpg)
+![](/images/2024-40-mixed-winners-1024x725.jpg)
 
-![](images/2024-35-mixed-winners-1024x725.jpg)
+![](/images/2024-35-mixed-winners-1024x725.jpg)
 
-![](images/2024-30-mixed-winners-1024x725.jpg)
+![](/images/2024-30-mixed-winners-1024x725.jpg)
 
-![](images/2024-rotating-winners-1024x725.jpg)
+![](/images/2024-rotating-winners-1024x725.jpg)
 
-![](images/2024-35-rotating-winners-1024x725.jpg)
+![](/images/2024-35-rotating-winners-1024x725.jpg)
 
-![](images/2024-30-rotating-winners-1024x725.jpg)
+![](/images/2024-30-rotating-winners-1024x725.jpg)
 
 ## 2023 Tournament Results
 
@@ -96,15 +120,15 @@ We have completed our first Deaf Midwest Pickleball Tournament on June 19, 2021 
 
 1st Place: Kevin Hall and Sean Trapp
 
-![](images/competitive-winners-1024x768.jpg)
+![](/images/competitive-winners-1024x768.jpg)
 
 2nd Place: Carlos Lopez and Wilson Velazquez
 
-![](images/competitive-second-place-1024x768.jpg)
+![](/images/competitive-second-place-1024x768.jpg)
 
 3rd Place: Jim Foulks and Peter Schultz
 
-![](images/competitive-third-place-768x1024.jpg)
+![](/images/competitive-third-place-768x1024.jpg)
 
 ## **Recreational Medalists**
 
@@ -116,13 +140,13 @@ From left to right:
 
 - 3rd Place: Don Arocho and Ryne Thorne
 
-![](images/recreational-medalists-1024x768.jpg)
+![](/images/recreational-medalists-1024x768.jpg)
 
 ## Brackets
 
-![](images/competitive-bracket-1024x768.jpg)
+![](/images/competitive-bracket-1024x768.jpg)
 
-![](images/recreational-bracket-1024x768.jpg)
+![](/images/recreational-bracket-1024x768.jpg)
 
 ### Tournament Photos
 

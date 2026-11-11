@@ -3,18 +3,6 @@ title: "Tournament"
 date: 2025-01-05
 ---
 
-## Cost
-
-The more events you play, the more you save:
-
-- 1st Event: $75
-
-- 2nd Event: Additional $10
-
-- Friday Cash Clash is $35 (Must also be registered for either Saturday and/or Sunday event)
-
-- No refunds after May 31, 2026.
-
 | **Previous Tournaments** |  |
 | --- | --- |
 | _Year_ | _Location_ |

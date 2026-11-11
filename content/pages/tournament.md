@@ -3,32 +3,6 @@ title: "Tournament"
 date: 2025-01-05
 ---
 
-## Schedule - 3 action-packed days!
-
-**Friday, June 26**
-
-- 6:00 pm – 10:00 pm: Friday Night Cash Clash – A fun, competitive cash event with fixed partners.
-
-**Saturday, June 27**
-
-- 8:00 am – 11:30 am: Women’s Doubles
-
-- 12:30 pm – 4:00 pm: Men’s Doubles
-
-**Sunday, June 28**
-
-- 8:00 am – 4:00 pm: Mixed Doubles – Teams of one man and one woman
-
-## Format
-
-- Skill Levels: We have groups for 3.0, 3.5, and 4.0 players.
-
-- The Games: Everyone plays "Round Robin" style (you play against many teams). Games go up to 11 points.
-
-- Playoffs: The top 3 teams in each group move on to the finals!
-
-\*Only Saturday/Sunday doubles events will be reported to DUPR. Friday Night Cash Clash will not count towards your DUPR score.
-
 ## Cost
 
 The more events you play, the more you save:

@@ -44,6 +44,7 @@ The more events you play, the more you save:
 | **Previous Tournaments** |  |
 | --- | --- |
 | _Year_ | _Location_ |
+| 2026 | Saint Paul, Minnesota |
 | 2025 | St. Louis, Missouri |
 | 2024 | Naperville, Illinois |
 | 2023 | Indianapolis, Indiana |
